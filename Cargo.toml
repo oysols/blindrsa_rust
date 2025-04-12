@@ -1,0 +1,13 @@
+[package]
+name = "blindrsa"
+version = "0.15.2"
+edition = "2021"
+
+[lib]
+name = "blindrsa"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.24.1", features = ["extension-module", "anyhow"] }
+blind-rsa-signatures = "0.15.2"
+anyhow = "1.0.97"
