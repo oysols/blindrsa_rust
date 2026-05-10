@@ -1,4 +1,4 @@
-# blindrsa
+# blindrsa_rust
 
 Implements blind signatures used in anonymous ecash/evotes implementations.
 

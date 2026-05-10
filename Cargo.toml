@@ -1,10 +1,10 @@
 [package]
-name = "blindrsa"
+name = "blindrsa_rust"
 version = "0.15.2"
 edition = "2021"
 
 [lib]
-name = "blindrsa"
+name = "blindrsa_rust"
 crate-type = ["cdylib"]
 
 [dependencies]

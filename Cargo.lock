@@ -39,7 +39,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "blindrsa"
+name = "blindrsa_rust"
 version = "0.15.2"
 dependencies = [
  "anyhow",

@@ -102,7 +102,7 @@ impl SecretKey {
 }
 
 #[pymodule]
-fn blindrsa(m: &Bound<'_, PyModule>) -> PyResult<()> {
+fn blindrsa_rust(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<PublicKey>()?;
     m.add_class::<SecretKey>()?;
     Ok(())
